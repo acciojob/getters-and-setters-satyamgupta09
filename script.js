@@ -33,7 +33,7 @@ class Person {
     }
 
     get name(){
-        return this._name;
+        return this.name;
     }
 
     set name(name){
@@ -48,6 +48,19 @@ class Person {
         this.age = age;
     }
 }
+
+class Student extends Person {
+    study(){
+        console.log(`${this.name} is studying`);
+    }
+}
+
+class Teacher extends Person {
+    teach(){
+        console.log(`${this.name} is teaching`);
+    }
+}
+
 
 class Student extends Person {
     study(){
