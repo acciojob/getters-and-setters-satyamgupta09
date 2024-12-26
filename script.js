@@ -37,15 +37,15 @@ class Person {
     }
 
     set name(name){
-        this._name = name;
+        this.name = name;
     }
 
     get age(){
-        return this._age;
+        return this.age;
     }
 
     set age(age){
-        this._age = age;
+        this.age = age;
     }
 }
 
